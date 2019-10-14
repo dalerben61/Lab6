@@ -12,7 +12,7 @@ y = 0
 
 
 print("This program creates a simulation of an Etch a Sketch on the GFX Hat.")
-print("Here are a few instruction on how to use the program.")
+print("Here are a few instructions on how to use the program.")
 print("Use the arrow keys to draw lines on the GFX Hat.")
 print("Press S to clear the screen.")
 print("Press Q to exit.")
