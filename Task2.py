@@ -39,11 +39,11 @@ def displayObject(obj,x,y):
                 lcd.set_pixel(initialPositionx, initialPositiony, 1)
                 lcd.show()
             initialPositionx += 1
-            if x > 127:
-                x = 0
+            if initialPositionx > 127:
+                initialPositionx = 0
         initialPositiony+=1
-        if y > 63:
-            y = 0
+        if initialPositiony > 63:
+            initialPositiony = 0
         initialPositionx = x
             
 
